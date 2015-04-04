@@ -1,0 +1,7 @@
+my_example.py
+io_utils.py
+query_magnitudes.py
+params.py
+data_struc.py
+swave.py
+*.pyc

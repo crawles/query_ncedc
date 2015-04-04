@@ -28,5 +28,5 @@ maxlat = lat + 1
 minlon = lon - 1
 maxlon = lon + 1
 
-all_events = query.query_events(client,min(times),max(times),minlat,maxlat,minlon,maxlon)
+all_events = query.query_events(client,np.min(times),np.max(times),minlat,maxlat,minlon,maxlon)
 assoc_events = query.find_associated_events(times,all_events,delta_time = 10) # seconds

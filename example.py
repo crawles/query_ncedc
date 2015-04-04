@@ -7,6 +7,7 @@ from obspy.core.utcdatetime import UTCDateTime
 import query
 import io_utils
 from obspy.fdsn import Client
+import numpy as np
 
 times = array([UTCDateTime(2002, 1, 8, 11, 58, 44, 870000),
        UTCDateTime(2002, 1, 8, 13, 43, 42, 870000),
